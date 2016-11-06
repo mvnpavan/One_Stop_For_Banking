@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="Desktop View"
+        android:defaultValue="false"
+        android:summary="Select the option to browse banking websites in desktop mode"
+        android:key="desktopView" />
+    <CheckBoxPreference android:title="Secure Screen Capture"
+        android:defaultValue="true"
+        android:summary="Stop system to capture screen of the application"
+        android:key="screensecure">
+    </CheckBoxPreference>
+</PreferenceScreen>
